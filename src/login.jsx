@@ -68,7 +68,7 @@ const LoginPage = () => {
         <div className="mb-8 flex flex-col items-center text-center">
           <div className="h-20 w-auto mb-4">
              <img 
-              src="http://eas.drukgreen.bt/EAS/image/logo.png" 
+              src='https://i.ibb.co/PsW5NV83/logo.png"  border="0"' 
               alt="DrukGreen Logo" 
               className="h-full object-contain"
             />

@@ -45,7 +45,7 @@ export default function Navbar() {
             <div className="flex shrink-0 items-center">
               <Link to="/">
                 <img
-                  src="http://eas.drukgreen.bt/EAS/image/logo.png"
+                  src="https://i.ibb.co/PsW5NV83/logo.png"
                   alt="logo"
                   className="h-8 w-auto"
                 />

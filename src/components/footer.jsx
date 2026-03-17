@@ -11,7 +11,7 @@ export default function Footer() {
           {/* Logo Section */}
           <Link to="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
             <img 
-              src="http://eas.drukgreen.bt/EAS/image/logo.png" 
+              src="https://i.ibb.co/PsW5NV83/logo.png" 
               className="h-8 shrink-0" // Prevents logo from squishing
               alt="EMU Logo" 
             />
