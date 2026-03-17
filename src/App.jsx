@@ -13,7 +13,7 @@ import TeamPage from "./pages/Team";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MHP-EMU">
       <div className="bg-gray-900 min-h-screen">
         <Routes>
           {/* Public Route */}
