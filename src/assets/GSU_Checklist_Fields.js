@@ -1,0 +1,26 @@
+const GSU_Checklist_feild = [
+    { name: 'Unit', label: 'Unit', type: 'radio', options: ['UNIT I', 'UNIT II', 'UNIT III', 'UNIT IV'] },
+    { name: 'Phase', label: 'Phase', type: 'radio', options: ['R', 'Y', 'B',] },
+    { name: 'HV Winding Temperature of WTI (◦C)', label: 'HV Winding Temperature of WTI (◦C)', type: 'number',  },
+    { name: 'LV Winding Temperature of WTI (◦C)', label: 'LV Winding Temperature of WTI (◦C)', type: 'number',  },
+    { name: 'Oil Temperature from OTI (◦C)', label: 'Oil Temperature from OTI (◦C)', type: 'number',  },
+    { name: 'Conservation Tank Oil Level from Level Indicator', label: 'Conservation Tank Oil Level from Level Indicator', type: 'text',  },
+    { name: 'Any Oil Leakages from Transformer Body (Yes/No)', label: 'Any Oil Leakages from Transformer Body (Yes/No)', type: 'radio', options: ['NO', 'Yes'] },
+    { name: 'Oil Circulating Pump (OCP) Selection Switch PSS1 (P1/P2)', label: 'Oil Circulating Pump (OCP) Selection Switch PSS1 (P1/P2)', type: 'radio', options: ['P1', 'P2'] },
+    { name: 'Cooler Control Selector Switch CSS1 Position (Remote/Local Manual/Local Auto)', label: 'Cooler Control Selector Switch CSS1 Position (Remote/Local Manual/Local Auto)', type: 'radio', options: ['Remote', 'Local Manual', 'Local Auto'] },
+    { name: 'CW Motorized Valve VSS1 Selection Position (Standby/Service/OFF)', label: 'CW Motorized Valve VSS1 Selection Position (Standby/Service/OFF)', type: 'radio', options: ['Standby', 'Service', 'OFF'] },
+    { name: 'CW Motorized Valve VSS2 selection Position (Standby/Service/OFF)', label: 'CW Motorized Valve VSS2 selection Position (Standby/Service/OFF)', type: 'radio', options: ['Standby', 'Service', 'OFF'] },
+    { name: 'Inlet CW Pressure (Bar)', label: 'Inlet CW Pressure (Bar)', type: 'number' },
+    { name: 'Inlet CW Temperature (◦C)', label: 'Inlet CW Temperature (◦C)', type: 'number' },
+    { name: 'Any Oil Leakages from Oil Pipelines (Yes/No)', label: 'Any Oil Leakages from Oil Pipelines (Yes/No)', type: 'radio', options: ['NO', 'Yes'] },
+    { name: 'Any Water Leakages from CW Pipelines (Yes/No)', label: 'Any Water Leakages from CW Pipelines (Yes/No)', type: 'radio', options: ['NO', 'Yes'] },
+    { name: 'Transformer Tap Position', label: 'Transformer Tap Position', type: 'number' },
+    { name: 'Oil Level in Breather Cup (High/Normal/Low)', label: 'Oil Level in Breather Cup (High/Normal/Low)', type: 'radio', options: ['High', 'Normal', 'Low'] },
+    { name: 'Any Changes in Silica Gel Colour (Normal/Slightly/ Completely)', label: 'Any Changes in Silica Gel Colour (Normal/Slightly/ Completely)', type: 'radio', options: ['Normal', 'Slightly', 'Completely'] },
+    { name: 'Any Abnormal Sound from Transformer Components (No/Yes, Specify if yes)', label: 'Any Abnormal Sound from Transformer Components (No/Yes, Specify if yes)', type: 'text'},
+    { name: 'Water (H₂O) content from DGA (PPM)', label: 'Water (H₂O) content from DGA (PPM)', type: 'number' },
+    { name: 'Carbon (CO) content from DGA (PPM)', label: 'Carbon (CO) content from DGA (PPM)', type: 'number' },
+    { name: 'Hydrogen (H₂) content from DGA (PPM)', label: 'Hydrogen (H₂) content from DGA (PPM)', type: 'number' },
+
+]
+export default GSU_Checklist_feild
