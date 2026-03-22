@@ -4,23 +4,33 @@ import LoginPage from "./login";
 import GeneratorChecklist from "./pages/GeneratorChecklist";
 import GsuTransformerChecklist from "./pages/GsuTransformerChecklist";
 import IctTransformerChecklist from "./pages/IctTransformerChecklist";
-import ProtectedRoute from "./components/ProtectedRoute";
 import ShuntChecklist from "./pages/ShuntChecklist";
 import UserProfile from "./pages/userProfile";
 import UsefulLinks from "./pages/UsefulLinks";
 import Setting from "./pages/Setting";
 import TeamPage from "./pages/Team";
+import BearingChecklistPage from "./pages/BearringChecklist";
+
+// Import both Route Guards
+import ProtectedRoute from "./components/ProtectedRoute";
+import GuestRoute from "./components/GuestRoute";
 
 export default function App() {
   return (
     <BrowserRouter basename="/MHP-EMU">
       <div className="bg-gray-900 min-h-screen">
         <Routes>
-          {/* Public Route */}
-          <Route path="/login" element={<LoginPage />} />
+          {/* GUEST ONLY ROUTE: Logged in users get redirected to "/" */}
+          <Route path="/login" element={
+            <GuestRoute>
+              <LoginPage />
+            </GuestRoute>
+          } />
+          
+          {/* TOTALLY PUBLIC ROUTE: Anyone can see this */}
           <Route path="/useful_links" element={<UsefulLinks />} />
 
-          {/* Protected Routes */}
+          {/* PROTECTED ROUTES: Users must be logged in to see these */}
           <Route path="/" element={
             <ProtectedRoute>
               <Home />
@@ -50,19 +60,28 @@ export default function App() {
               <IctTransformerChecklist />
             </ProtectedRoute>
           } />
+
           <Route path="/Profile" element={
             <ProtectedRoute>
               <UserProfile />
             </ProtectedRoute>
           } />
+
           <Route path="/Setting" element={
             <ProtectedRoute>
               <Setting />
             </ProtectedRoute>
           } />
+
           <Route path="/Team" element={
             <ProtectedRoute>
               <TeamPage />
+            </ProtectedRoute>
+          } />
+
+          <Route path="/bearing" element={
+            <ProtectedRoute>
+              <BearingChecklistPage />
             </ProtectedRoute>
           } />
         </Routes>

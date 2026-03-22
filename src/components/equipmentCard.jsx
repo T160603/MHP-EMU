@@ -5,7 +5,8 @@ const equipment = [
   { id: 1, type: "Generator", name: "Generator", color: "bg-green-600", path: "/generator" },
   { id: 2, type: "Transformer", name: "GSU Transformer", color: "bg-blue-600", path: "/gsu-transformer" },
   { id: 3, type: "Reactor", name: "Shunt Reactor", color: "bg-purple-600", path: "/shunt-reactor" },
-  { id: 4, type: "Transformer", name: "Interconnected Transformer", color: "bg-orange-600", path: "/interconnected-transformer" }
+  { id: 4, type: "Transformer", name: "Interconnected Transformer", color: "bg-orange-600", path: "/interconnected-transformer" },
+  { id: 5, type: "Bearing", name: "Bearing DTT checklist", color: "bg-red-600", path: "/bearing" }
 ];
 
 export default function EquipmentCards() {

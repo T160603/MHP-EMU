@@ -1,0 +1,22 @@
+const bearingChecklist = [
+    { name: 'Generating Unit', label: 'Generating Unit', type: 'radio', options: ['UNIT I', 'UNIT II', 'UNIT III', 'UNIT IV'] },
+    {label: 'Upper Guide Bearing', type: 'header' },
+    { name: 'UGB Pad-2', label: 'Pad-2', type: 'number' },
+    { name: 'UGB Pad-8', label: 'Pad-8', type: 'number' },
+    { name: 'UGB Oil Reservior', label: 'Oil Reservior', type: 'number' },
+    {label: 'Thrust Bearing Pads', type: 'header' },
+    { name: 'Thrust Pad-1', label: 'Pad-1', type: 'number' },
+    { name: 'Thrust Pad-4', label: 'Pad-4', type: 'number' },
+    { name: 'Thrust Pad-7', label: 'Pad-7', type: 'number' },
+    { name: 'Thrust Pad-10', label: 'Pad-10', type: 'number' },
+    {label: 'Lower Guide Bearing', type: 'header' },
+    { name: 'LGB Pad-2', label: 'Pad-2', type: 'number' },
+    { name: 'LGB Pad-8', label: 'Pad-8', type: 'number' },
+    { name: 'LGB Oil Reservior', label: 'Oil Reservior', type: 'number' },
+    {label: 'Turbine Guide Bearing', type: 'header' },
+    { name: 'TGB Shell-1', label: 'Shell-1', type: 'number' },
+    { name: 'TGB Shell-2', label: 'Shell-2', type: 'number' },
+    { name: 'TGB Oil Reservior', label: 'Oil Reservior', type: 'number' },
+    { name: 'Remarks', label: 'Remarks', type: 'text' },
+]
+export default bearingChecklist
