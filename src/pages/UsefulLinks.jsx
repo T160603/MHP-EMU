@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Globe, Lock } from 'lucide-react'; // Optional: Lucid icons for flair
+import { ExternalLink, Globe, Lock, Folder } from 'lucide-react'; // Optional: Lucid icons for flair
 
 const usefulLinks = [
   { link: 'https://fiori.drukgreen.bt:49001/fiori?sap-client=200', name: 'Fiori', desc: 'SAP Business Suite' },
@@ -8,6 +8,7 @@ const usefulLinks = [
   { link: 'http://172.30.242.117:7009/', name: 'Attendance (MHP)', note: 'MHP Network Only', icon: <Lock size={16} /> },
   { link: 'https://thegateway.bt/', name: 'TheGateway', desc: 'National JOB Portal' },
   { link: 'https://ramis.drc.gov.bt/appUserLogin.html', name: 'RAMIS', desc: 'Tax Management' },
+  { link: 'https://drive.google.com/drive/folders/1VHwvzVEvBxJzX6eN6Nkp_NmYleYlxHbT?usp=drive_link', name: 'EMU Centralized folder', note: 'Centralized folder for EMU', icon: <Folder size={16} />  },
 ];
 
 function UsefulLinks() {

@@ -105,7 +105,7 @@ function BearingChecklistPage() {
               >
                 <div className="flex justify-between items-start">
                   <div>
-                    <h3 className="text-[#22c55e] font-black text-xl">{record.Unit || 'NEW UNIT'}</h3>
+                    <h3 className="text-[#22c55e] font-black text-xl">{record.Generating_Unit || 'NEW UNIT'}</h3>
                   </div>
                   
                   <button 

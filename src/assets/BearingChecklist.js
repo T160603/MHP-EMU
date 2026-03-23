@@ -1,5 +1,5 @@
 const bearingChecklist = [
-    { name: 'Generating Unit', label: 'Generating Unit', type: 'radio', options: ['UNIT I', 'UNIT II', 'UNIT III', 'UNIT IV'] },
+    { name: 'Generating_Unit', label: 'Generating Unit', type: 'radio', options: ['UNIT I', 'UNIT II', 'UNIT III', 'UNIT IV'] },
     {label: 'Upper Guide Bearing', type: 'header' },
     { name: 'UGB Pad-2', label: 'Pad-2', type: 'number' },
     { name: 'UGB Pad-8', label: 'Pad-8', type: 'number' },
